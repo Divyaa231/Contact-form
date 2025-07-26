@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    height: 100%;
+    /* background-image: url(blue_backgr.jpg); */
+    background-color: rgba(189, 229, 236, 0.644);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo{
+    clip-path: polygon(26% 5%, 74% 5%, 94% 52%, 78% 95%, 26% 95%, 6% 50%);
+    align-items: start;
+
+}
+.navbar{
+    background-color: #fafbfc;
+    overflow: hidden;
+    padding: 5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links {
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+}
+.nav-left{
+    float: inline-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem
+}
+.nav-right{
+    float:inline-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(7, 42, 117);
+}
+.left-side{
+    background-color: white;
+    display:block;
+    justify-content: center;
+    margin-right: 850px;
+    padding: 25px;
+    padding-bottom:15px;
+    border-radius: 0.2rem;
+    float: left;
+}
+h2{
+    padding-bottom: 5px;
+}
+.form-btn{
+    background-color:rgb(31, 79, 235);
+    color: white;
+    padding: 8pt;
+    margin: 20px auto;
+    border: none;
+    border-radius: .3rem;
+    display:block;
+}
+.boxes{
+    background-color: rgb(255, 255, 255);
+    display:block;
+    justify-content: center;
+    margin-right:1020px;
+    padding:15px;
+    padding-bottom: 5px;
+    border-radius: 0.2rem;
+    border-color:black;
+}
+h3{
+    padding-bottom:16px;
+}
+.btn1{
+    background-color:rgb(31, 79, 235);
+    color: white;
+    padding: 8pt;
+    margin: 20px auto;
+    border: none;
+    border-radius: .3rem;
+
+}
+.helpbox{
+    background-color:rgb(31, 79, 235) ;
+    color: white;
+    display:block;
+    justify-content: center;
+    margin-right:1020px;
+    padding:5px;
+    padding-bottom: 0px;
+    border-radius: 0.2rem;
+    border-color:black;
+}
+.btnlast{
+    background-color:white;
+    color:rgb(31, 79, 235);
+    padding: 10pt;
+    margin: 25px auto;
+    border: none;
+    border-radius: .3rem;
+}
+.btngrp{
+    display: flex;
+    justify-content: center;
+    gap:0px;
+}
+
+/* layout */
+
+
+
+
+
